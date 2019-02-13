@@ -5,9 +5,9 @@ About pingouin
 
 Home: https://pingouin-stats.org/
 
-Package license: GPL-3.0
+Package license: BSD-3-Clause
 
-Feedstock license: GPL-3.0
+Feedstock license: BSD 3-Clause
 
 Summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy
 
@@ -115,3 +115,4 @@ Feedstock Maintainers
 
 * [@hoechenberger](https://github.com/hoechenberger/)
 * [@raphaelvallat](https://github.com/raphaelvallat/)
+
