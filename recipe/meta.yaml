@@ -1,5 +1,5 @@
 {% set name = "pingouin" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1f585181b7f6722d61b8b1155a0bddf1bdb6de7caecd2a78ba5ace7e32ecd13a
+  sha256: 64d3d2ce220ab90fd6ff9b066b0d7b903bef6c2af400391ae586f09a66cc7de9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254
   # Once resolved, it should be removed.
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
