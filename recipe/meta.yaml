@@ -37,8 +37,8 @@ test:
 
 about:
   home: https://pingouin-stats.org/
-  license: BSD-3-Clause
-  license_family: BSD
+  license: GPL-3
+  license_family: GPL
   license_file: LICENSE
   summary: 'Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy'
 
