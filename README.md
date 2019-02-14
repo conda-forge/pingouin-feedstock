@@ -1,13 +1,15 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About pingouin
 ==============
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
-
 Home: https://pingouin-stats.org/
 
-Package license: GPL-3.0
+Package license: BSD-3-Clause
 
-Feedstock license: GPL-3.0
+Feedstock license: BSD 3-Clause
 
 Summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy
 
@@ -54,6 +56,8 @@ conda search pingouin --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -115,3 +119,4 @@ Feedstock Maintainers
 
 * [@hoechenberger](https://github.com/hoechenberger/)
 * [@raphaelvallat](https://github.com/raphaelvallat/)
+
