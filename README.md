@@ -7,7 +7,7 @@ About pingouin
 
 Home: https://pingouin-stats.org/
 
-Package license: BSD-3-Clause
+Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
