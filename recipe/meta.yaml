@@ -35,6 +35,7 @@ test:
   imports:
     - pingouin
     - pingouin.datasets
+    - pingouin.external
 
 about:
   home: https://pingouin-stats.org/
