@@ -1,5 +1,5 @@
 {% set name = "pingouin" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8fd35afd1c300e8dd78793773d71a51c50c112722539d7461aecb136da6d514e
+  sha256: 67715d3624757cc4c532989b3ed6d01f5e3b42c435f011282818f67dd7c22ddc
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ requirements:
     - scikit-learn
     - pandas-flavor >=0.1.2
     - mpmath
+    - outdated
 
 test:
   imports:
