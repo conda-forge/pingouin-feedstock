@@ -1,5 +1,5 @@
 {% set name = "pingouin" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1637c5109de817e9b3cb03a9085f6eec35c555fc7e5b27e0940ea8f0fa73a93f
+  sha256: 5af652c2e1c0ccef437bbabe18bafb6942a4968772d474bfc37c1cd438bde8e4
 
 build:
   noarch: python
-  number: 1
+  number: 0
   # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254
   # Once resolved, it should be removed.
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -44,7 +44,7 @@ about:
   license: GPL-3
   license_family: GPL
   license_file: LICENSE
-  summary: 'Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy'
+  summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy
 
   description: |
     Pingouin is designed for users who want simple yet exhaustive statistical functions.
