@@ -32,6 +32,7 @@ requirements:
     - pandas-flavor >=0.1.2
     - mpmath
     - outdated
+    - tabulate
 
 test:
   imports:
@@ -41,7 +42,7 @@ test:
 
 about:
   home: https://pingouin-stats.org/
-  license: GPL-3
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy
