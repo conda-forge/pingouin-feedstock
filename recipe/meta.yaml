@@ -1,5 +1,5 @@
 {% set name = "pingouin" %}
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 32f1cedce4b34d52b89465426a57e29b1da233a94e52d8a16aa0720b0cf94493
+  sha256: ae12581174740a358ca9127bdc2360edf7af357b094de682c80f993ff402b813
 
 build:
   noarch: python
