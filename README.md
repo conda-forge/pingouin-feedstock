@@ -5,9 +5,13 @@ Home: https://pingouin-stats.org/
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pingouin-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy
+
+Development: https://github.com/raphaelvallat/pingouin
+
+Documentation: https://pingouin-stats.org/
 
 Pingouin is designed for users who want simple yet exhaustive statistical functions.
 For example, the scipy.stats.ttest_ind() function returns only the T-value and the p-value.
