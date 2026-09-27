@@ -1,13 +1,13 @@
 {% set name = "pingouin" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: df5ac1f057ef257c07cf0e0785ac8fb9ace923ba1b0ef775886914d674a9f63d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 19d180d2fe9663ec91908f3bf6c81cef32564f55c34aa186ad5b2cd9cad33ee3
 
 build:
   noarch: python
